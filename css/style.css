@@ -1,0 +1,43 @@
+ * {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ [class*="col-"] {
+
+    height: 100px;
+    border: solid white 1px;
+    background-color: darkblue;
+
+    color: white;
+    font-weight: 600;
+
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+
+ }
+
+ [class*="row-padding"] > [class*="col-"] {
+
+    padding: 20px 15px;
+ }
+
+ [class*="col-xs-6"] [class*="col-"]{
+
+    height: 60px;
+    border: solid darkblue 1px;
+    background-color: green;
+
+    line-height: 60px;
+    vertical-align: middle;
+ }
+
+
+ .container-fluid {
+
+    margin-top: 50px;
+ }
