@@ -1,0 +1,45 @@
+* {
+    
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+
+   height: 100px;
+   border: solid white 1px;
+   /* border: solid grey 1px; */
+}
+
+.yellow {
+
+   background-color: rgb(255,192,60);
+   box-shadow: 5px 5px 20px 5px black;
+}
+
+.orange {
+
+   background-color: rgb(255,125,63);
+   box-shadow: 5px 5px 20px 5px black;
+
+}
+
+.black {
+
+   background-color: black;
+   box-shadow: 5px 5px 20px 5px black;
+}
+
+
+.purp {
+   background-color: purple;
+   box-shadow: 5px 5px 20px 5px black;
+}
+
+.green {
+   
+   background-color: yellowgreen;
+   box-shadow: 5px 5px 20px 5px black;
+}
