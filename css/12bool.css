@@ -1,3 +1,10 @@
+/* regola anti bug */
+
+[class*="col-"] {
+
+    flex: 0 0 auto;
+}
+
 /* container ------------*/
 
 .container {
